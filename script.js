@@ -43,7 +43,7 @@ function playRound(playerSelection, computerSelection) {
 }
 
 function game() {
-  finalResult = 0
+  finalResult = 0;
   for (let i = 0; i < 5; i++) {
     let playerChoice = prompt(`Round ${i + 1}\nChoice: `);
     let computerChoice = computerPlay();
