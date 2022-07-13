@@ -16,6 +16,7 @@ function computerPlay() {
       break;
     default:
       return "Computer selection error.";
+      break;
   }
 }
 
